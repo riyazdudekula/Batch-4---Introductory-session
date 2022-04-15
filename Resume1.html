@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+</html>
+    <head>
+        <style>table,th,td
+        {
+            border: 4px solid;
+            border-collapse:collapse;
+        }
+        tr:nth-child(even)
+        {
+            background-color: blue;
+        }
+        #image {
+            display: none;
+        }
+        #btnID {
+             box-sizing: border-box;
+            }
+        #btnID2 {
+            display: none;
+        }
+    button:hover 
+    { 
+    zoom: 120%;
+        background-color: rgb(171, 255, 75);
+        text-align: center;
+        text-emphasis-color: blue;
+        }
+    a:hover{ 
+    background-color: rgb(241, 255, 39);
+                font-style: oblique;
+                font-weight: bold;
+        }
+    button{ 
+      background-color: rgb(255, 255, 254);
+        font-family: 'Lucida Sans';
+        }
+    body{
+        background-image:url("pic1.png");
+        }
+        </style>
+        
+        <title>RESUME
+        </title>
+    </head>
+    <body>
+        <script>
+        function show() 
+        {
+        document.getElementById('image')
+         .style.display = "block";
+        document.getElementById('btnID')
+         .style.display = "none";
+         document.getElementById('btnID2')
+         .style.display = "block";
+        }
+        function hide()
+        {
+        document.getElementById('image')
+        .style.display = "none";
+        document.getElementById('btnID2')
+        .style.display = "none";
+        document.getElementById('btnID')
+         .style.display = "block";
+ }</script>
+        <button type="button" onclick="show()" id="btnID"> Show Photo</button>
+        <button type="button" onclick="hide()" id="btnID2"> Hide Photo</button>
+        <img id="image" src="1.jpeg" width="100" height="100"><br><br>
+        <h1>RESUME</h1>
+        <p>Name   :Dudekula Riyaz Ahemed</p>
+        <p>branch :mech</p>
+        <p>College:GPREC,Kurnool</p>
+        <a href="https://www.gmail.com">riyazdudekula518@gmail.com</a><br>
+        <button id="button" type="button" onclick='location.href="https://www.linkedin.com"'>Linkedin</a></button>
+        
+
+        <p>EDUCATION:</p>
+        <table>
+            <tr>
+             <th>Course</th>
+                <th>Institution</th>
+                <th>university</th>
+                <th>passing year</th>
+                <th>cgpa/percent</th>
+
+            </tr>
+            <td>btech</td>
+            <td>gprec</td>
+            <td>jntu</td>
+            <td>2022</td>
+            <td>8.42</td>
+            <tr>
+                <td>inter</td>
+                <td>sri chaitanya</td>
+                <td>BIEAP</td>
+                <td>2018</td>
+                <td>97.4</td>
+
+            </tr>
+            <tr>
+                <td>ssc</td>
+                <td>narayana school</td>
+                <td>BSEAP</td>
+                <td>2016
+                </td>
+                <td>9.3</td>
+            </tr>
+        </table>
+        <b>Technical skills:</b>
+        <p>programming languages:C,python</p>
+        <b>PROJECT WORK:</b>
+        <p>Modelling of ecentric and tailstock</p>
+        <b>CERTIFICATIONS:</b>
+        <ul>
+            <li>Attended two day hands-on workshop on Humanoid Robotics organized by
+                GPREC.</li>
+            <li>Attended two weeks training program on Manufacturing Welding organized by
+                APSSDC.
+
+            </li>
+        </ul>
+        <b>
+            Strengths and hobbies:</b>
+            <ul>
+                <li>hard worker and self motivated</li>
+                <li>I like to draw</li>
+                <li>I like to listening to music</li>
+            </ul>
+        
+
+        <b>PERSONAL DETAILS</b>
+        <ol>
+        <li>DOB: 16-08-2001</li>
+        <li>sex and status: Male and Single</li>
+        <li>Naionality:Indian</li>
+    </ol>
+        <b>DECLARATION:</b>
+        <p>I hereby declare that the above written particulars are true to the best of my Knowledge
+            and belief.</p>
+    </body>
+
+    <html>
