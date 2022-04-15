@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p id="demo"></p>
+    <script>
+        const minute= new Date().getMinutes();
+        let a;
+        if(minute<10)
+        {
+            a="hi";
+        }
+        else if(minute>10 && minute<35)
+        {
+            a="hello";
+        }
+        else 
+        {
+            a="hehe";
+        }
+        document.getElementById("demo").innerHTML=a;
+    </script>
+    </body>
+</html>
